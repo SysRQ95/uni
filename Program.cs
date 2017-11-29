@@ -11,12 +11,13 @@ namespace blatte_4
         
         static void Main(string[] args)
         {
+            //this program shows on the console the number of Prime numbers in a specific intervals  :))
             Console.WriteLine("+-----------+-----------+");
             Console.WriteLine("|" + " Intervall " + " | " + "Anzahl"+" | ");
             Console.WriteLine("+-----------+-----------|");
             int st;
             int en;
-            Prime(st = 0, en = 1000);
+            Prime(st = 0, en = 1000); //Prime is the Method below
             Prime(st = 1000, en = 2000);
             Prime(st = 2000, en = 3000);
             Prime(st = 3000, en = 4000);
